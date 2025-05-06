@@ -11,7 +11,7 @@ class Car(Vehicle):
 # Plane class with move() implementation
 class Plane(Vehicle):
     def move(self):
-        print("Flying ✈️")
+        print("Flying")
 
 # Define a base class Animal
 class Animal:
@@ -21,17 +21,17 @@ class Animal:
 # Dog class with move() implementation
 class Dog(Animal):
     def move(self):
-        print("Running 🐕")
+        print("Running")
 
 # Fish class with move() implementation
 class Fish(Animal):
     def move(self):
-        print("Swimming 🐟")
+        print("Swimming")
 
 # Bird class with move() implementation
 class Bird(Animal):
     def move(self):
-        print("Flying 🦅")
+        print("Flying")
 
 # Demonstrate the polymorphic behavior
 def main():
